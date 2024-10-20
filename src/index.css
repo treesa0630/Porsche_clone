@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden; */
+}
+.head{
+  background-color: black;
+}
+.heading{
+  font-family: "Michroma", sans-serif;
+    font-weight: bold;
+}
+.models{
+  font-weight: bold;
+}
+.car {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+.car1 {
+  background-image: url('https://da4dkroembtou.cloudfront.net/wp-content/uploads/2022/09/P21_0182_a3_rgb.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.car2 {
+  background-image: url('https://ev-database.org/img/auto/Porsche_Taycan_Turbo_S/Porsche_Taycan_Turbo_S-01@2x.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.car3 {
+  background-image: url('https://press.porsche.com/download/prod/presse_pag/PressBasicData.nsf/Download?OpenAgent&attachmentid=2657448');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.car4 {
+  background-image: url('https://images-porsche.imgix.net/-/media/D8CC032E3DEC42C78D4918D6A08A11F0_256712FF42F240EDB54311F5E81D3D26_008-extended-teaser_4-3_3840x2880_MA24T4COX0013?w=1299&q=85&auto=format');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.car5 {
+  background-image: url('https://media04.marktspiegel.de/article/2020/08/14/4/265794_XXL.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.buttons{
+  position: absolute;
+  top: 80%;
+  left: 3%;
+}
+button{
+  border: none;
+  padding: 13px; 
+  font-weight: 600;
+}
+.button1:hover{
+  background-color: rgb(221, 6, 6);
+  color: white;
+}
+
+.button2{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.button2:hover{
+  border: 1px solid  rgb(221, 6, 6);
+  color:  rgb(221, 6, 6);
+}
+.note{
+  font-size: 12px;
+}
+@media (max-width:600px) {
+  .note{
+      font-size: 10px;
+  }
+}
+.topic2{
+  font-weight: bold;
+}
+.scrolling-wrapper {
+  padding: 0% 5%;
+  margin-bottom: 8%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-block;
+    border: none;
+  }
+}
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+  }
+}
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+.scrolling-wrapper {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.button3{
+  background-color: black;
+}
+.card:hover .button3{
+  background-color:  rgb(221, 6, 6);
+  transition: .3s;
+}
+.shopping{
+  font-weight: bold;
+}
+li:hover{
+  color:  rgb(221, 6, 6);
+  cursor: pointer;
+}
+.footer{
+  padding: 0px 10%;
+}
